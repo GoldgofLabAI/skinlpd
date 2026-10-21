@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated runs
+synthetic/
+results/
+logs/
+models/
+outputs/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.png
+*.jpg
+*.pdf
+*.log
+.env
+.env.*
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/

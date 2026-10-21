@@ -1,0 +1,8 @@
+# Root install for the README demos and package tests (Python 3.12).
+# Prefer this for a fresh virtualenv; per-package requirements.txt
+# files remain available for narrower installs.
+
+-r llm_pipeline/requirements.txt
+-r mil_training/requirements.txt
+-r attention_density/requirements.txt
+pytest>=7.0

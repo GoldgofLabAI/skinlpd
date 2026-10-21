@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Local runs and generated data
+*.db
+*.sqlite
+*.sqlite3
+runs/
+output*/
+features/
+synthetic/
+*.h5
+*.pt
+*.snappy
+.env
+.env.*
+
+# Logs and checkpoints
+*.log
+checkpoints/
+errored_outputs/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
